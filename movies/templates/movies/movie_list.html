@@ -1,0 +1,17 @@
+{% extends "movies/base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<h2>{{ title }}</h2>
+<ul>
+    {% for movie in movies %}
+        <li>
+            <h3>{{ movie.title }} ({{ movie.release_year }})</h3>
+            <p>类型: {{ movie.genre }}</p>
+            <p>{{ movie.description }}</p>
+            <img src="{{ movie.poster.url }}" alt="{{ movie.title }} 海报">
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

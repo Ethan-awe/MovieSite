@@ -1,0 +1,38 @@
+{% extends "movies/base.html" %}
+
+{% block title %}首页{% endblock %}
+
+{% block content %}
+<h2>欢迎来到电影网站</h2>
+<p>从导航菜单中选择一个类别以查看电影。</p>
+
+<h3>亚洲电影</h3>
+<ul>
+    {% for movie in asia_movies %}
+        <li>{{ movie.title }}</li>
+    {% endfor %}
+</ul>
+<form action="{% url 'asia_movies' %}" method="get">
+    <button type="submit">查看所有日韩电影</button>
+</form>
+
+<h3>欧美电影</h3>
+<ul>
+    {% for movie in europe_movies %}
+        <li>{{ movie.title }}</li>
+    {% endfor %}
+</ul>
+<form action="{% url 'europe_movies' %}" method="get">
+    <button type="submit">查看所有欧美电影</button>
+</form>
+
+<h3>中国电影</h3>
+<ul>
+    {% for movie in china_movies %}
+        <li>{{ movie.title }}</li>
+    {% endfor %}
+</ul>
+<form action="{% url 'china_movies' %}" method="get">
+    <button type="submit">查看所有中国电影</button>
+</form>
+{% endblock %}
