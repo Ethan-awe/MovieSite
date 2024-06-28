@@ -22,7 +22,7 @@
     pip install -r requirements.txt
     ```
 
-2. **注册管理员（可略过）**
+2. **注册管理员（可选）**
 
     注：已经内置创建了一个管理员，用户名为 `superuser_test`，密码为 `superusertestpass123`。
 
@@ -32,7 +32,7 @@
 
 3. **注册用户（可选）**
 
-    注：已经内置创建了一个管理员，用户名为 `admin_test`，密码为 `testpassword123`。
+    注：已经内置创建了一个用户，用户名为 `admin_test`，密码为 `testpassword123`。
 
     ```bash
     python manage.py createsuperuser
