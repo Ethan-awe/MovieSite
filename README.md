@@ -46,6 +46,8 @@
 
 5. **访问网站**
 
+    ![image](https://github.com/Ethan-awe/MovieSite/assets/140080063/6117d689-7cb9-4fbb-9c75-e4e0efb6634d)
+
     Enjoy yourself!
 
 6. **修改信息（增删用户/电影）**
