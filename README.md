@@ -49,7 +49,9 @@
     Enjoy yourself!
 
 6. **修改信息（增删用户/电影）**
+   
     登录管理员账号
    ![image](https://github.com/Ethan-awe/MovieSite/assets/140080063/8cc8ac3c-ea8c-49e6-a391-08b22b52e73f)
+   进入“管理后台”界面
    ![image](https://github.com/Ethan-awe/MovieSite/assets/140080063/b0837b64-d72a-43f3-b8a9-bff69d566033)
 
