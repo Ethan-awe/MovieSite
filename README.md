@@ -10,7 +10,12 @@
 - 用户必须登录才能访问主页和浏览电影
 
 ## 安装步骤
+0. **下载项目**
 
+    ```bash
+    git clone https://github.com/Ethan-awe/MovieSite.git
+    ```
+    
 1. **安装第三方库**
 
     ```bash
