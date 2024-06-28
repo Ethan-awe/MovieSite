@@ -34,10 +34,6 @@
 
     注：已经内置创建了一个用户，用户名为 `admin_test`，密码为 `testpassword123`。
 
-    ```bash
-    python manage.py createsuperuser
-    ```
-
 4. **运行服务器**
 
     ```bash
