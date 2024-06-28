@@ -22,7 +22,7 @@
     pip install -r requirements.txt
     ```
 
-2. **注册管理员**
+2. **注册管理员（可略过）**
 
     注：已经内置创建了一个管理员，用户名为 `superuser_test`，密码为 `superusertestpass123`。
 
